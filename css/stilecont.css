@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body {
+    font-family: Arial, Verdana, Tahoma, sans-serif;;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+h3 {
+    color: white;
+    font-weight: 900;
+}
+
+.clean {
+    overflow: hidden;
+}
+
+/*
+Стили шапки
+*/
+#headwrap {
+    width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* Путь до изображения */
+    background-image: url(/images/2.png);
+
+    /* Фоновое изображение всегда отцентрировано по вертикали и горизонтали */
+    background-position: center center;
+
+    /* Фоновое изображение не повторяется */
+    background-repeat: no-repeat;
+
+    /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+
+    /* Вот что позволяет фоновому изображению подстраиваться под размер контейнера */
+    background-size: cover;
+
+    /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
+    background-color: #464646;
+}
+
+#headwrap div {
+    margin-top: 70px;
+    margin-bottom: 150px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 4px 2px 4px black, 0 0 3em #000000; /* Параметры тени */
+
+}
+
+#headwrap div p {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 40px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+#headwrap h1 {
+    font-weight: 900;
+    padding-right: 40px;
+    margin: 0;
+    text-align: right;
+    color: white;
+}
+
+header {
+    width: 1366px;
+    margin: 0 auto;
+    background: url("/images/3.png");
+    background-position: center center;
+
+    /* Фоновое изображение не повторяется */
+    background-repeat: no-repeat;
+
+    /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+
+    /* Вот что позволяет фоновому изображению подстраиваться под размер контейнера */
+    background-size: cover;
+
+    /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
+    background-color: #464646;
+    box-shadow: inset 0px -7px 13px -4px rgb(249, 255, 253);
+
+}
+
+#header-content {
+    max-width: 1366px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#logo {
+    width: 35%;
+    float: left;
+
+    overflow: hidden;
+}
+
+#logo img {
+    width: 120px;
+    margin-left: 30px;
+}
+
+#perek {
+    width: 30%;
+    float: left;
+}
+
+#perek a {
+    color: white;
+}
+
+#kab {
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+
+#kab a {
+    color: #FFFFFF;
+}
+
+.button4 {
+    float: left;
+
+    font-size: 14px;
+
+    width: 100px;
+    margin: 15px 10px 1px 20px;
+    box-shadow: 0 0 10px 5px rgb(18, 179, 250);
+    text-align: center;
+    line-height: 36px;
+    border-radius: 10px;
+
+}
+#butr{
+    width: 150px;
+    margin-right: 0;
+    float: right;
+    background: url("/images/4.png") no-repeat;
+    background-position: 10px 10px;
+    padding-left: 30px;
+}
+
+#butk {
+    width: 150px;
+    margin-right: 0;
+    float: right;
+    background: url("/images/4.png") no-repeat;
+    background-position: 10px 10px;
+    padding-left: 20px;
+
+}
+
+#butex {
+    margin-left: 15px;
+    float: right;
+    background: url("/images/5.png") no-repeat;
+    background-position: 10px 10px;
+    padding-left: 20px;
+}
+
+.button4:hover, #butk:hover, #butex:hover , #butr:hover {
+    cursor: pointer;
+    z-index: 999;
+    background: #12B3FA;
+}
+
+/* Стили wrap*/
+#wrap {
+    width: 1366px;
+    margin: 20px auto;
+    overflow: hidden;
+    background: url("/images/fon.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Стили левой панеи */
+
+#leftbar {
+    width: 32%;
+    float: left;
+    color: #4582ab;
+    font-weight: 800;
+    overflow: hidden;
+    background: url("/images/fonsea.png") no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+
+}
+
+#leftbar p {
+    margin: 5px 0;
+}
+
+#headleftbar {
+    overflow: hidden;
+    background: url("/images/fonseahead.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    margin-bottom: 10px;
+
+}
+
+#headleftbar h3 {
+    padding-left: 30px;
+    background: url("/images/6.png") no-repeat;
+    padding: 18px 0 15px 55px;
+    margin: 5px;
+}
+#headluslu{
+    overflow: hidden;
+    background: url("/images/fonseahead.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    margin-bottom: 10px;
+}
+#ritchbar form{
+    overflow: hidden;
+}
+
+#delshab{
+
+}
+#headluslu h3{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+#headshab{
+    overflow: hidden;
+    background: url("/images/fonseahead.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    margin-bottom: 10px;
+}
+#headshab h3{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+#leftcont {
+    overflow: hidden;
+
+}
+
+#leftcont form {
+    padding-left: 20px;
+}
+
+#search, #opis {
+    width: 350px;
+    padding: 10px 5px;
+
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9d9e9e;
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+
+}
+
+#search, #opis:hover {
+    background: #dfe9ec;
+    color: #414848;
+}
+
+#search, #opis:focus {
+    background: #dfe9ec;
+    color: #414848;
+
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.buttonz {
+    float: right;
+    color: white;
+    padding: 11px 8px;
+    font-weight: 700;
+    font-size: 18px;
+    background: url("/images/batz.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    background: url("/images/fonbuton22.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    margin-right: 7px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.but{
+    padding: 15px;
+    float: right;
+    background: url("/images/fonbuton22.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    margin-right: 7px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+#okbut {
+    background: url("/images/7.png") no-repeat,
+    url("/images/fonbuton22.png") center center no-repeat;
+    background-size: auto, cover;
+}
+
+#failbut {
+    background: url("/images/9.png") no-repeat,
+    url("/images/fonbuton22.png") center center no-repeat;
+    background-size: auto, cover;
+}
+
+#sendbut {
+    background: url("/images/8.png") no-repeat,
+    url("/images/fonbuton22.png") center center no-repeat;
+    background-size: auto, cover;
+
+}
+
+.button:hover, .buttonz:hover , .but:hover  {
+    background: #54eaea;
+    border: 1px solid rgba(256, 256, 256, 0.75);
+
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.button:focus {
+    position: relative;
+    bottom: -1px;
+
+    background: #56c2e1;
+
+    box-shadow: inset 0 1px 6px rgba(256, 256, 256, 0.75);
+    -moz-box-shadow: inset 0 1px 6px rgba(256, 256, 256, 0.75);
+    -webkit-box-shadow: inset 0 1px 6px rgba(256, 256, 256, 0.75);
+}
+
+#chek {
+    float: left;
+    padding-top: 10px;
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+#senaform {
+width: 200px;
+}
+
+#mesrn {
+    height: 716px;
+    overflow: hidden;
+}
+
+#headmesen, #headcontent {
+    overflow: hidden;
+    background: url("/images/fonseahead.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    margin-bottom: 10px;
+    box-shadow: 0 0 26px 0px rgb(0, 0, 0);
+
+}
+
+#headmesen h3, #headcontent h3 {
+    padding-left: 50px;
+    background: url("/images/10.png") no-repeat;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+#mesenger {
+    height: 80%;
+    overflow-y: scroll;
+}
+
+#inst {
+    margin-top: 58px;
+}
+
+#inst p {
+
+    text-align: center;
+    font-size: 18px;
+    color: #2a62bc;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+
+/* стили для контента*/
+#content {
+    width: 32%;
+    float: left;
+    background: url("/images/foncontebt.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 1428px;
+    overflow: hidden;
+
+}
+#contentp {
+    width: 32%;
+    float: left;
+    background: url("/images/foncontebt.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+
+}
+#spisok {
+    height: 90%;
+    overflow-y: scroll;
+}
+
+#content h3 {
+    text-align: center;
+}
+
+#contentp h3 {
+    text-align: center;
+}
+.idprd {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 5px 0;
+    display: block;
+}
+
+.idprd:hover {
+    background: #3f9db8;
+
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.idprd:focus{
+    background: #db8;
+
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+/*стили для правой колнке */
+#ritchbar {
+    width: 32%;
+    float: left;
+    margin-left: 20px;
+    color: #4582ab;
+
+}
+
+#headpostav, #headoptovar {
+    background: url("/images/fonseahead.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#postav img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px #aaa;
+    margin-left: 37%;
+
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+#postav img:hover {
+    border-radius: 3px;
+}
+
+#ritchbar h3 {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    color: #4fb9f6;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#texttovar {
+    padding: 7px;
+
+}
+
+#sena {
+    color: #4fb9f6;
+    float: left;
+    margin: 10px;
+
+}
+
+#imgtovar {
+    overflow: hidden;
+    width: 33%;
+    float: left;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+
+#shablon{
+
+    height: 200px;
+
+}
+#spisshab{
+height: 100%;
+    overflow-y: scroll;
+
+}
+
+
+/* стили футера */
+footer {
+    background: url("/images/fonfooter.png") repeat-x;
+    width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#footercontent {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+#copy {
+    float: left;
+    font-size: 18px;
+    color: #9bc4dc;
+    margin: 20px;
+}
+
+#info {
+    float: right;
+    font-size: 18px;
+    color: #9bc4dc;
+    margin: 20px;
+}
+
+#info a {
+    color: #eff0ff;
+}

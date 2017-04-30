@@ -9,6 +9,7 @@ if (isset($_SESSION["session_username"])){
     echo "<script>";
     echo "var key =  '$_SESSION[session_key]';";
 echo "</script>";
+
 }
 
 

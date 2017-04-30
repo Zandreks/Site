@@ -39,7 +39,7 @@
 
         </script>
         <div class="footer">
-           <input type="button" name="but" id="but" value="ВОЙТИ" class="button"/>
+           <input type="button" name="but" id="but" value="Далее" class="button"/>
     </form>
 
 </div>
